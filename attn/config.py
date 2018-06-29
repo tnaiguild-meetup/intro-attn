@@ -10,9 +10,9 @@ class Base(metaclass=ConfigMeta):
 class CONFIG(Base):
     split_ratio = 0.90
     dropout = 0.1
-    cuda = True
+    cuda = False
     tqdm = True
-    flush = False
+    flush = True
 
     CHECKPOINT = 1
     EPOCHS = 10

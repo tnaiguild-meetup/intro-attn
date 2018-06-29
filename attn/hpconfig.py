@@ -16,3 +16,5 @@ class CONFIG(Base):
 
     LR = 0.001
     MOMENTUM=0.1
+
+    ACTIVATION = 'softmax'
